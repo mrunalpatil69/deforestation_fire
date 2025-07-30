@@ -37,7 +37,7 @@ if st.button("Predict Fire Type"):
         0: "Vegetation Fire",
         2: "Other Static Land Source",
         3: "Offshore Fire"
-    }
+    } 
 
     result = fire_types.get(prediction, "Unknown")
     st.success(f"**Predicted Fire Type:** {result}")
